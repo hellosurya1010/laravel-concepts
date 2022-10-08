@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c61ff82cbf0142a401a48a8161e1595a",
+    "content-hash": "04fe77a1b3bad53eec6ba46d5369c08b",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -964,6 +964,54 @@
                 }
             ],
             "time": "2022-08-28T14:45:39+00:00"
+        },
+        {
+            "name": "kbs1/laravel-encrypted-api",
+            "version": "v1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/kbs1/laravel-encrypted-api.git",
+                "reference": "72634eb74452ddf70a943624a98525589ceabcfb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/kbs1/laravel-encrypted-api/zipball/72634eb74452ddf70a943624a98525589ceabcfb",
+                "reference": "72634eb74452ddf70a943624a98525589ceabcfb",
+                "shasum": ""
+            },
+            "require": {
+                "laravel/framework": ">=5.4",
+                "php": ">=7.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Kbs1\\EncryptedApi\\Providers\\EncryptedApiServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Kbs1\\EncryptedApi\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "kbs1",
+                    "email": "viliam.kubis@gmail.com"
+                }
+            ],
+            "description": "Encrypted API requests and responses between Laravel applications.",
+            "support": {
+                "issues": "https://github.com/kbs1/laravel-encrypted-api/issues",
+                "source": "https://github.com/kbs1/laravel-encrypted-api/tree/master"
+            },
+            "time": "2018-01-25T20:21:48+00:00"
         },
         {
             "name": "laravel/framework",
